@@ -141,3 +141,7 @@ h3{font-size:clamp(1.1rem,3vw,1.5rem);}
   .stats-grid{grid-template-columns:repeat(2,1fr);}
   .btn{padding:0.85rem 1.5rem;font-size:0.9rem;}
 }
+@media(max-width:767px){
+  .service-card,.testimonial-card,.stat-item,.reveal,.hero-eyebrow,.hero h1,.hero-sub,.hero-ctas{opacity:1!important;transform:none!important;}
+  .faq-item{opacity:1!important;transform:none!important;}
+}
